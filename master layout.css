@@ -1,0 +1,80 @@
+@font-face {
+	font-family: font-1;
+	src: url(fonts/varsity_regular.ttf)
+}
+#div1 {
+	height: 80px;
+	width: 700px;
+	background-color: lavender;
+	font-size: 40px;
+	line-height: 80px;
+	font-family: font-1;
+	text-transform: uppercase;
+}
+#div1 img {
+	height: 50px;
+	float: left;
+	position: relative;
+	left: 15px;
+	top: 15px;
+}
+ul {
+			list-style: none;
+			margin: 10px auto auto 283px;
+
+		}
+		ul li {
+			background-color: cadetblue;
+			width: 174px;
+			float: left;
+	        border: 1px solid white;
+	        height: 50px;
+	        text-align: center;
+	        line-height: 50px;
+
+		}
+		ul li a{
+	        text-decoration: none;
+			color: white;
+			display: block;
+		}
+		ul li:hover{
+	    	background-color: grey;
+	    	;
+	    }
+	    ul ul{
+			display: none;
+
+		}
+		ul li:hover > ul{
+    		display: block; 
+
+		}
+		ul ul ul {
+			margin-left: 150px;
+		}
+		ul li ul {
+			position: relative;
+			left: -323px;
+			margin-top: 0px;
+
+		}
+#div2 {
+    	height: 300px;
+    	width: 300px;
+    	border: 2px solid black;
+    	border-radius: 5px;
+    	margin: 80px auto auto 325px;
+    	overflow: auto;
+    	
+
+}
+footer {
+	background-color: cadetblue;
+	width: 700px;
+	margin: 10px auto auto auto;
+
+}
+#div2 i {
+	line-height: 250px;
+}
